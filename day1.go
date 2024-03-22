@@ -91,6 +91,7 @@ func extractCalibrationNumbersFromLineV2(line string) int {
 	return first*10 + last
 }
 
+//nolint:cyclop,gomnd // unnecessary to fix linter
 func prefixToDigit(s string) (int, bool) {
 	switch {
 	case strings.HasPrefix(s, one):

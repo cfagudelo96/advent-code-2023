@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	s, err := SumCalibrationValuesV2()
+	s, err := SumOfFewestSet()
 	if err != nil {
 		log.Fatal(err.Error())
 	}
