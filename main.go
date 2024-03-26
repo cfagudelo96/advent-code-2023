@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	s, err := day3.SumRelevantParts()
+	s, err := day3.SumGearRatios()
 	if err != nil {
 		log.Fatal(err.Error())
 	}
